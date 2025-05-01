@@ -1,0 +1,38 @@
+{
+    "miryoku_zmk": {
+        "branch": "master",
+        "description": "Miryoku is an ergonomic, minimal, orthogonal, and universal keyboard layout. Miryoku ZMK is the Miryoku implementation for ZMK.",
+        "homepage": "",
+        "owner": "manna-harbour",
+        "repo": "miryoku_zmk",
+        "rev": "819b69a753fd83a0e2f137ba92066a4a89439de2",
+        "sha256": "0m3nza6yq5ddb9k1iqhpjaz8yy3mxqgj7dp680k4snky26934ijc",
+        "type": "tarball",
+        "url": "https://github.com/manna-harbour/miryoku_zmk/archive/819b69a753fd83a0e2f137ba92066a4a89439de2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-unstable",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f771eb401a46846c1aebd20552521b233dd7e18b",
+        "sha256": "1c2c5l1l4ybfgf9zpcr25ijy138x3jsxjlplki0icb1g7hyajd11",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/f771eb401a46846c1aebd20552521b233dd7e18b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "zmk-nix": {
+        "branch": "main",
+        "description": "Build system and configuration files for generating and building ZMK firmware with Nix",
+        "homepage": "",
+        "owner": "lilyinstarlight",
+        "repo": "zmk-nix",
+        "rev": "2b2071bd97b1e617085a3421f5b004df65c487d5",
+        "sha256": "074i8bf2qyvdb7g9mfdg3jbkhazha524fhq7zwsrhw2pvimbzfw6",
+        "type": "tarball",
+        "url": "https://github.com/lilyinstarlight/zmk-nix/archive/2b2071bd97b1e617085a3421f5b004df65c487d5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
