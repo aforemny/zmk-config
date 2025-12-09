@@ -6,7 +6,7 @@ let inherit (pkgs.callPackage (import "${sources.zmk-nix}/nix/builders.nix") { }
   firmware = buildSplitKeyboard {
     name = "firmware";
     src = pkgs.runCommandNoCC "config" { } ''
-      cp -r ${sources.miryoku_zmk}/ $out
+      cp -r ${../miryoku_zmk} $out
       chmod +w $out/config
       cp ${./west.yml} $out/config/west.yml
     '';
