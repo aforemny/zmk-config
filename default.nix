@@ -14,5 +14,6 @@ let inherit (pkgs.callPackage (import "${sources.zmk-nix}/nix/builders.nix") { }
     shield = "corne_%PART%";
     #shield = "settings_reset";
     zephyrDepsHash = "sha256-zb5RX0HIeaPhC0IvvlWu/qND63lewjN758u09to2Wos=";
+    enableZmkStudio = true;
   };
 }
